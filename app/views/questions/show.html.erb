@@ -1,0 +1,10 @@
+<h1>Interview Questions</h1>
+<h2>Choose Your Industry</h2>
+
+<%= link_to "Back to all Industries", industries_path %>
+
+<h2>
+<% @answers.each do |answer| %>
+	<%= answer.description %>
+<% end %>
+</h2>

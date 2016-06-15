@@ -1,0 +1,8 @@
+<h1>Interview Questions</h1>
+<h2>Choose Your Industry</h2>
+
+<h3>
+<% @industries.each do |industry| %>
+<%= link_to industry.name, industry_path(industry.id) %>
+<% end %>
+</h3>	

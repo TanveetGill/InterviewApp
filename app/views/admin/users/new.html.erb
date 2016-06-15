@@ -1,0 +1,8 @@
+<h1>Create an Industry</h1>
+<%= form_tag(admin_users_path) do %>
+  <div>
+    <%= label_tag :name %><br>
+    <%= text_field_tag :name %>
+  </div>
+  <div><%= submit_tag "Submit" %></div>
+<% end %>
